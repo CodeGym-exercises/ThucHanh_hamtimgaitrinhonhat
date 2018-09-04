@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>tim gia tri nhỏ nhat cua mang</title>
+	<script type="text/javascript">
+		function minValue(array){
+			let min = array[0];
+			for(let i =0;i<array.length;i++){
+				if(min>array[i]){
+					min = array[i];
+				}
+			}
+			return min;
+		}
+	</script>
+</head>
+<body>
+	<h1>Bấm f12 để xem kết quả</h1>
+	<script type="text/javascript">
+		let arr1 = [3, 5, 1, 8, -3, 7, 8];
+
+		let arr2 = [7, 12, 6, 9, 20, 56, 89];
+
+		let arr3 = [];
+
+		let arr4 = [0, 0, 0, 0, 0, 0];
+		console.log("minvalue of arr 1");
+		console.log(minValue(arr1));
+		console.log("minvalue of arr 2");
+		console.log(minValue(arr2));
+		console.log("minvalue of arr 3");
+		console.log(minValue(arr3));
+		console.log("minvalue of arr 4");
+		console.log(minValue(arr4));
+	</script>
+</body>
+</html>
